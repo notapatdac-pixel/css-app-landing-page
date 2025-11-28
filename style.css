@@ -1,9 +1,147 @@
 /* Start coding here */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* Role Name class , id */
+
+/* Style : feature style  */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.feature-card {
+  width: 387px;
+  height: 272px;
+  border-radius: 24px;
+  background-color: antiquewhite;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.feature-card-items-1 {
+  background-color: #d7e5f6;
+}
+.feature-card-items-2 {
+  background-color: #d8e0fc;
+}
+.feature-card-items-3 {
+  background-color: #e8dcf6;
+}
+
+.feature-card-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-card-title {
+  color: #1a1a2c;
+  font-size: 24px;
+}
+.feature-card-paragrap {
+  color: #5f5f76;
+}
+
+.feature-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contact-title-h2 {
+  font-size: 44px;
+}
+
+.card-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 120px;
+  border-radius: 24px;
+  background-color: #ffffffb2;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.01);
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.card-contact-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.card-contact-input input,
+textarea {
+  width: 589px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #e0e0ed;
+}
+
+.card-contact-input input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  color: #9393AC;
+}
+
+.card-contact-input textarea {
+  height: 102px;
+}
+.card-contact-input label {
+  font-size: 16px;
+  color: #5f5f76;
+}
+
+.contact-btn {
+  width: 589px;
+  border-radius: 16px;
+  padding: 16px 36px;
+  background-color: #1a1a2c;
+  color: #ffffff;
+}
+
+/* footer style */
+
+.footer-container,
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container {
+  margin: 80px 120px;
+}
+.footer-detail {
+  color: #5f5f76;
+}
+
+.footer-link {
+  gap: 37px;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #1a1a2c;
+}
