@@ -4,9 +4,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-    background-color: #f6f6fb;
 }
 
+body{
+  background-color: #f6f6fb;
+}
 /* Role Name class , id */
 .NavHero-section {
     display: flex;
@@ -20,6 +22,8 @@
     height: 128px;
     width: 1440px;
     gap: 10px;
+   
+    
 }
 
 .Nav-logo {
@@ -40,6 +44,7 @@
     border: none;
     border-radius: 99px;
     box-shadow: 0 1px 5px lightgray;
+    position: fixed;
 }
 
 .Nav-menu {
